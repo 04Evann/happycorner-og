@@ -1,0 +1,15 @@
+{
+  "name": "happy-corner-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "API para Happy Corner (pedidos + puntos)",
+  "main": "api/get-customer-data.js",
+  "scripts": {
+    "start": "node api/get-customer-data.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "pdfkit": "^0.17.2",
+    "resend": "^4.0.0"
+  }
+}
